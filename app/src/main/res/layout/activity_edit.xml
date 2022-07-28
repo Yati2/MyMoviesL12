@@ -16,6 +16,23 @@
         android:textSize="18sp"
         android:textStyle="bold"
         android:paddingBottom="5dp"
+        android:text="Movie ID" />
+
+    <EditText
+        android:id="@+id/etID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="none"
+        android:paddingBottom="15dp"
+
+        />
+    <TextView
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="5dp"
         android:text="Movie Title" />
 
     <EditText
@@ -24,7 +41,7 @@
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:paddingBottom="15dp"
-        android:hint="Enter movie title here" />
+         />
 
     <TextView
         android:layout_width="match_parent"
@@ -42,7 +59,7 @@
         android:inputType="textPersonName"
         android:paddingBottom="15dp"
 
-        android:hint="Enter genre here" />
+      />
 
     <TextView
         android:layout_width="match_parent"
@@ -58,7 +75,7 @@
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:paddingBottom="15dp"
-        android:hint="Enter year of release here" />
+        />
 
     <TextView
         android:layout_width="match_parent"
@@ -80,20 +97,26 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btnInsert"
-            android:layout_width="0dp"
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_margin="10dp"
-            android:text="Insert" />
+            android:text="update" />
 
         <Button
-            android:id="@+id/btnShow"
-            android:layout_width="0dp"
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_margin="10dp"
-            android:text="show list" />
+            android:text="delete" />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cancel" />
 
 </LinearLayout>

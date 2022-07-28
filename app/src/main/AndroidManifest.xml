@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="sg.edu.rp.c346.id20028056.mymovies">
-
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,6 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyMovies"
         tools:targetApi="31">
+        <activity
+            android:name=".Edit"
+            android:exported="false" />
+        <activity
+            android:name=".Display"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="10sp"
+    android:paddingBottom="10sp"
+    android:layout_margin="10sp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:textColor="#4D490A"
+        android:text="hi"
+        android:textSize="28dp"
+        android:textStyle="bold"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/tvGenre"
+        android:layout_width="match_parent"
+        android:paddingLeft="2dp"
+        android:layout_height="wrap_content"
+        android:text="hi"
+        android:textColor="#8E24AA"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvYear"
+            android:layout_width="wrap_content"
+            android:paddingRight="20sp"
+            android:paddingTop="20sp"
+            android:textColor="#776666"
+            android:textSize="16dp"
+            android:text="hi"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/rating"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+
+            tools:srcCompat="@tools:sample/avatars" />
+
+    </LinearLayout>
+
+</LinearLayout>
